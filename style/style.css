@@ -1,18 +1,39 @@
+/* Esercizio 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 1.5s;
+}
 
+div.ex-1-square:hover{
+    background-color: red;
+}
+
+/* Esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+
+div.ex-2-square:active{
+    width: 100%;
+}
+
+/* Esercizio 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: .5s;
 }
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
